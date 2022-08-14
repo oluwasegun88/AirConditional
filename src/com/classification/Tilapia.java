@@ -1,12 +1,12 @@
 package com.classification;
 
-public class Osteichthyes extends Chordata{
+public class Tilapia extends Chordata{
 
     private String gills;
     private int fins;
     private int scales;
 
-    public Osteichthyes(String name, String backbone, String spine, int kidney, int brain, String gills, int fins, int scales) {
+    public Tilapia(String name, String backbone, String spine, int kidney, int brain, String gills, int fins, int scales) {
         super(name, backbone, spine, kidney, brain);
         this.gills = gills;
         this.fins = fins;
@@ -29,4 +29,6 @@ public class Osteichthyes extends Chordata{
         super.move();
         System.out.println("very fast");
     }
+
+
 }

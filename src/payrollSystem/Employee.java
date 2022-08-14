@@ -1,6 +1,8 @@
 package payrollSystem;
 
-public abstract class Employee implements Payable{
+import payrollSystem.Payable;
+
+public abstract class Employee implements Payable {
     private  final String firstName;
     private final String lastName;
     private final String socialSecurityNumber;

@@ -1,10 +1,10 @@
 package payrollSystem;
 
-public class SalaryEmployee extends  Employee{
+public class SalaryEmployee extends Employee {
     private double grossSales;
     private double commissionRate;
 
-    public SalaryEmployee(String firstName, String lastName, String socialSecurityNumber,  double grossSales, double commissionRate) {
+    public SalaryEmployee(String firstName, String lastName, String socialSecurityNumber,  double grossSales) {
         super(firstName, lastName, socialSecurityNumber);
         this.grossSales = grossSales;
         this.commissionRate = commissionRate;

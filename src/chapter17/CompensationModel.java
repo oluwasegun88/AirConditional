@@ -1,2 +1,7 @@
-package chapter17;public class CompensationModel {
-}
+package chapter17;
+
+public interface CompensationModel {
+        double earnings();
+    }
+
+

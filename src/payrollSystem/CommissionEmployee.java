@@ -1,6 +1,6 @@
 package payrollSystem;
 
-public class CommissionEmployee extends  Employee {
+public class CommissionEmployee extends Employee {
     private double grossSales;
     private double commissionRate;
 

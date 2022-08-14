@@ -1,2 +1,8 @@
-package payrollSystem;public class Payable {
-}
+package payrollSystem;
+
+    public interface Payable {
+        double getPaymentAmount();
+
+    }
+
+
